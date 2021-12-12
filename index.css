@@ -1,0 +1,29 @@
+input , select , textarea{
+    display: block;
+    margin: 4px ;
+    
+}
+.inline{
+    display: inline;
+    
+}
+body{
+    background-color: rgb(243, 217, 255);
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+ 
+}
+h4{
+    margin: 0.5em 4px ;
+    font-family: sans-serif , 'roboto';
+}
+.form-cantainer{
+    background-color: #efefef;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form_cantainer{
+    background: linear-gradient(90deg , rgb(247, 177, 247));
+}

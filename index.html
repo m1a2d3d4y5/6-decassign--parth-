@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>admission forms for geekster</h2>
+   <div class="form-cantainer">
+    <form>
+        <input type="text"  class="inline" name="f_name" placeholder="first_name" autocomplete="off" required/>
+        <input type="text"  class="inline" name="l_name" placeholder="last_name" required/>
+        <br>
+        <br>
+        <br>
+        <input type="email" class="inline" name="mail_id" placeholder="e_mail"required/>
+        <input type="submit"/>
+        <input type="number" class="inline" name="phone" placeholder="phone number" required pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"/>
+        <br>
+       
+          <select name="city">
+                    
+                        <option>meerut</option>
+                        <option>luckhnow</option>
+                        <option>BADALPPUR</option>
+                        <option>kanpur</option>
+                    
+        </select>
+        <input type="date" name="date of birth" max="2022-01-01"/>
+        <textarea name="adress" ></textarea>
+        <h4>Education Info </h4>
+        
+        <select name="degree" > 
+            <option selected disabled> select degree</option>
+            <optgroup label="bachelors">
+                <option>B.TECH</option>
+                <option>B.SC</option>
+
+            </optgroup>
+        </select>
+            <input type="text" name="college" placeholder="college_name">
+            <br>
+            <br>
+            <input type="name" name="graduation_year" placeholder="year of graduation " min="2010" max="2022">
+            <br>
+            <br>
+            <input type="name" name="percentage" placeholder="percentage" min="0" max="100" step="0.1">
+            <br>
+            <br>
+            <input type="file">
+            <h4>COURSE DETAILS </h4>
+            <input type="radio" class="inline" name="course-type"/> fundamentals
+            <input type="radio" class="inline" name="course-type"/> advanced
+            <hr/>
+            <input type="checkbox" class="inline" name="course-type"/> web
+            <input type="checkbox" class="inline" name="course-type"/> dsa
+
+
+            <input class="inline" type="submit" value="submit response "/>
+            <input class="inline" type="submit" value="Apply for admission"/>
+            <input class="inline" type="reset"/>
+
+        </form>
+   </div>
+</body>
+</html>
